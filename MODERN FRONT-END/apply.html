@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <ul id="user">
+    <ul id="user-list">
 
     </ul>
     <script>
@@ -15,7 +15,12 @@
         .then(data => showUserNames(data))
 
         function showUserNames(data){
-            console.log(data);
+            let lists = '';
+            data.forEach(user => {
+                lists = lists + `<li>${user.name} : ${user.email}</li>`
+            });
+            const ul = document.getElementById(`user-list`);
+            ul.innerHTML = lists;
         }
     </script>
 </body>
