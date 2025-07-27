@@ -24,24 +24,26 @@
 // ParentComponent.jsx (React Example)
 
 
-function ChildComponent() {
-  return(
-  <div>
-    <header className='header-component'>
-      <h1>Hi I am single</h1>
-      <h3>ready to mingle</h3>
-      <p>I am a zarnalis</p>
-      <Korim name= 'salam' age= '33' />
-    </header>
-  </div>
-  );
-}
-function Korim(props){
-  return(
-  <div>
-    <h1>user name: {props.name}</h1>
-    <h1>user age: {props.name}</h1>
-  </div>
-  )
-}
-export default ChildComponent;
+// function ChildComponent() {
+//   return(
+//   <div>
+//     <header className='header-component'>
+//       <h1>Hi I am single</h1>
+//       <h3>ready to mingle</h3>
+//       <p>I am a zarnalis</p>
+//       <Korim name= 'salam' age= '33' />
+//     </header>
+//   </div>
+//   );
+// }
+// function Korim(props){
+//   return(
+//   <div>
+//     <h1>user name: {props.name}</h1>
+//     <h1>user age: {props.name}</h1>
+//   </div>
+//   )
+// }
+// export default ChildComponent;
+
+console.log(44);
